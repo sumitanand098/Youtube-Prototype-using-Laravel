@@ -1,0 +1,486 @@
+
+/*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    /* Extra Small Devices, Phones */ 
+@media screen  and (max-width: 479px) {
+.user-profile {
+	bottom: 0;
+	display: inline-block;
+	height: 100%;
+	position: relative;
+	right: 0;
+	width: 100%;
+}
+.video-right-btn {
+	display: inline-block;
+	left: 15px;
+	position: relative;
+	right: 0;
+	top: 10px;
+	width: auto;
+}
+.video-content {
+	display: inline-block;
+	padding: 20px;
+	width: auto;
+}
+.video-right-btn .btn-br {
+	margin: 10px 0 0 5px;
+	padding: 5px 15px;
+	width: auto;
+}
+.live-video-box {
+	margin-top: 0px;
+}
+.top-spacing{
+	margin-top: 60px;
+}
+.signup-form{
+	color: white;
+	margin: 0 auto;
+	width: 100%;
+}
+.section-spacing{
+	padding: 15px
+}
+.section-spacing1{
+	padding: 15px 15px 300px 15px;
+}
+.bottomheight{
+	height: 100px;
+}
+.sec-padding{
+	padding: 8px 15px;
+}
+.left-right-padding{
+	padding: 0px 0px 0 0px;
+}
+.card {
+    padding: 15px 30px 15px 15px;
+}
+.padd{
+	padding: 20px;
+}
+.google{
+	text-align: center;
+}
+.facebook{
+	margin-top: 20px;
+	text-align: center;
+}
+.ribbon{
+	margin-top:-21px;
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 5px;
+	width: 60px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.head{
+	margin: 0;
+	font-size: 10px !important;
+}
+.btn1 {
+	border:2px solid #ff3d63;
+	color:#ff3d63 ;
+	display: inline-block;
+	padding: 0px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	line-height: 40px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 0px;
+}
+.btn3{
+	border:2px solid #ff3d63;
+	color: white;
+	display: inline-block;
+	padding: 5px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 0px;
+}
+.modal-body1{
+	padding: 10px 20px 25px 20px;
+}
+.left{
+	float: left !important;
+}
+.top1{
+	margin-top:0;
+}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+.video-right-btn {
+    display: inline-block;
+    left: 15px;
+    position: relative;
+    right: 0;
+    top: 10px;
+    width: auto;
+}
+.live-video-box {
+	margin-top: 0px;
+}
+.top-spacing{
+	margin-top: 60px;
+}
+.signup-form{
+	color: white;
+	margin: 0 auto;
+	width: 70%;
+}
+.section-spacing{
+	padding: 30px
+}
+.section-spacing1{
+	padding: 180px 30px;
+}
+.bottomheight{
+	height: 80px;
+}
+.sec-padding{
+	padding: 15px 30px;
+}
+.left-right-padding{
+	padding: 0px 0px 0px 0px;
+}
+.card {
+    padding: 40px 55px 40px 40px;
+}
+.padd{
+	padding: 20px;
+}
+.google{
+	text-align: center
+}
+.facebook{
+	margin-top: 20px;
+	text-align: center
+}
+.ribbon{
+	margin-top:-24px;
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 5px;
+	font-size: 10px !important;
+	width: 60px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.head{
+	margin: 0;
+	font-size: 12px !important;
+}
+.btn1 {
+	border:2px solid #ff3d63;
+	color:#ff3d63 ;
+	display: inline-block;
+	padding: 0px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	line-height: 40px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 0px;
+}
+.btn3{
+	border:2px solid #ff3d63;
+	color: white;
+	display: inline-block;
+	padding: 5px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 0px;
+}
+.modal-body1{
+	padding: 10px 75px 25px 75px;
+}
+.left{
+	float: left !important;
+}
+.top1{
+	margin-top:0;
+}
+}
+
+/* Small Devices, Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+.top-spacing{
+	margin-top: 70px;
+}
+.signup-form{
+	color: white;
+	margin: 0 auto;
+	width: 60%;
+}
+.section-spacing{
+	padding: 50px
+}
+.section-spacing1{
+	padding: 180px 50px;
+}
+.bottomheight{
+	height: 70px;
+}
+.sec-padding{
+	padding: 30px 125px;
+}
+.left-right-padding{
+	padding: 0px 60px 0 45px;
+}
+.card {
+    padding: 40px 40px 40px 40px;
+}
+.google{
+	float:left;
+}
+.facebook{
+	float: right;
+}
+.ribbon{
+	margin-top:-40px;
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 10px;
+	font-size: 16px;
+	width: 100px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.head{
+	margin: 0;
+	font-size: 18px;
+}
+.btn1 {
+	border:2px solid #ff3d63;
+	color:#ff3d63 ;
+	display: inline-block;
+	padding: 0px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	line-height: 40px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 20px;
+}
+.btn3{
+	border:2px solid #ff3d63;
+	color: white;
+	display: inline-block;
+	padding: 5px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 20px;
+}
+.modal-body1{
+	padding: 10px 75px 25px 75px;
+}
+.top1{
+	margin-top:50px;
+}
+}
+
+/* Medium Devices, */
+@media (min-width : 992px) and (max-width: 1199px){
+.top-spacing{
+	margin-top: 70px;
+}
+.signup-form{
+	color: white;
+	margin: 0 auto;
+	width: 50%;
+}
+.section-spacing{
+	padding: 50px
+}
+.section-spacing1{
+	padding: 180px 50px;
+}
+.bottomheight{
+	height: 65px;
+}
+.sec-padding{
+	padding: 30px 60px;
+}
+.left-right-padding{
+	padding: 0px 100px 0 85px;
+}
+.card {
+    padding: 40px 40px 40px 40px;
+}
+.google{
+	float:left;
+}
+.facebook{
+	float: right;
+}
+.ribbon{
+	margin-top:-40px;
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 10px;
+	font-size: 16px;
+	width: 100px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.head{
+	margin: 0;
+	font-size: 18px;
+}
+.btn1 {
+	border:2px solid #ff3d63;
+	color:#ff3d63 ;
+	display: inline-block;
+	padding: 0px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	line-height: 40px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 20px;
+}
+.btn3{
+	border:2px solid #ff3d63;
+	color: white;
+	display: inline-block;
+	padding: 5px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 20px;
+}
+.modal-body1{
+	padding: 10px 75px 25px 75px;
+}
+.top1{
+	margin-top:50px;
+}
+}
+
+/* Desktops */
+@media only screen and (min-width : 1200px) {
+.top-spacing{
+	margin-top: 70px;
+}
+.signup-form{
+	color: white;
+	margin: 0 auto;
+	width: 40%;
+}
+.section-spacing{
+	padding: 50px
+}
+.section-spacing1{
+	padding: 180px 50px;
+}
+.bottomheight{
+	height: 65px;
+}
+.sec-padding{
+	padding: 30px 60px;
+}
+.left-right-padding{
+	padding: 0px 100px 0 85px;
+}
+.card {
+    padding: 40px 40px 40px 40px;
+}
+.google{
+	float:left;
+}
+.facebook{
+	float: right;
+}
+.ribbon{
+	margin-top:-40px;
+	background-color: #ff3d63;
+	color: white;
+	margin-left:0;
+	padding: 10px;
+	font-size: 16px;
+	width: 100px; 
+	opacity: .7;
+	white-space: nowrap; 
+	overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.head{
+	margin: 0;
+	font-size: 18px;
+}
+.btn1 {
+	border:2px solid #ff3d63;
+	color:#ff3d63 ;
+	display: inline-block;
+	padding: 0px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	line-height: 40px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 20px;
+}
+.btn3{
+	border:2px solid #ff3d63;
+	color: white;
+	display: inline-block;
+	padding: 5px 21px;
+	font-weight: normal;
+	font-size: 16px;
+	border-radius: 30px;
+	background: transparent;
+	position: relative;
+	z-index: 1;
+	margin-left: 20px;
+}
+.modal-body1{
+	padding: 10px 75px 25px 75px;
+}
+.top1{
+	margin-top:50px;
+}
+}
+
