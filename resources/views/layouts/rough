@@ -1,0 +1,32 @@
+
+ <script>
+        $(document).ready(function() {
+
+        // add class active for page variable
+        var str = "#";
+        var page = "users";
+        var sub = "create";
+        $(str.concat(page)).addClass('active');
+        $(str.concat(page, sub)).addClass('active');
+// {{$page}}{{$sub}}
+        });
+    </script>
+</body>
+
+
+
+
+
+//////////////////////
+
+
+
+
+$data = User::table('users')->get();
+        if(count($data)>0)
+        {
+            return view('admin.users.index')->with('page', "users")->with('sub', "index")->with('data', $data);
+        }
+        else{
+            return view('admin.users.index')->with('page', "users")->with('sub', "index");
+        }
